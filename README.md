@@ -7,7 +7,10 @@ Teste repositório
 
 `Eixo 4`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A correria do dia a dia, muitas vezes, deixa-nos sem tempo para cozinhar refeições saudáveis e nutritivas, muitas pessoas acabam recorrendo à fast-foods e comidas prontas para alimentar-se, o que pode comprometer sua saúde à longo prazo. No entanto, com ingredientes que possui em casa, é possível preparar refeições rápidas, saborosas e nutritivas. Pensando nisso, nasce a ideia do O que tem pra hoje?.  
+
+ 
+O que tem pra hoje? é um aplicativo que apresenta aos seus usuários receitas de uma refeição rápida, nutritiva e saudável com os ingredientes que já possui em casa. A partir da seleção de alimentos, dentro do próprio aplicativo, é possível combiná-los através de filtros e encontrar a melhor opção de receita. O que tem pra hoje?, contribui para a diminuição do desperdício de alimentos.
 
 ## Integrantes
 
