@@ -1,24 +1,26 @@
 # TÍTULO DO PROJETO
 Teste repositório
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`Eixo 4`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Vania
+- Cristiano Garcia Ridolfi
+- Kelly Cesário de Oliveira
+- Michelle Leal Rodrigues
+- Pedro Daniel Jardim
+- Renata Diniz Guimarães de Oliveira
+- Vania
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
