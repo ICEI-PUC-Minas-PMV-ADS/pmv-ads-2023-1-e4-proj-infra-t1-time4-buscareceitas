@@ -77,25 +77,36 @@ ASeguem abaixo a relação dos indicadores de desempenho desenvolvidos para o pr
 |	7	|	Período de inatividade		Verificar o tempo de inatividade dos usuários em relação ao app	|	Medir o intervalo de tempo médio que os usuários ficam sem utilizar o app	|	Média das diferenças entre as datas de acesso	|	Melhoria continua	|	Banco de Dados do aplicativo	|	Tempo mínimo entre as pesquisas	|	Semestral	| 
 
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
-
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| RF-001 | O sistema deverá permitir a criação de um perfil de usuário.  | ALTA | 
+| RF-002 | O sistema deverá permitir a alteração e a exclusão dos dados de usuários.   | ALTA | 
+| RF-003 | O sistema deverá permitir a inserção, a alteração e a exclusão dos dados de prestadores.   | ALTA | 
+| RF-004 | O sistema deverá permitir armazenar as receitas. | ALTA |
+| RF-005 | O sistema deverá permitir a edição e a exclusão das receitas.    | MÉDIA |
+| RF-006 | O sistema deve emitir lembretes para os usuários. | MÉDIA |
+| RF-007 | O sistema deverá permitir a busca de receitas. | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
+| RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
+| RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MÉDIA |
+| RNF-004 | O sistema deve processar requisições do usuário em no máximo 11 segundos. |  BAIXA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+## Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|01| O projeto deverá ser entregue até 07/12/2022. |
+|02| Não pode ser desenvolvido um módulo de backend.        |
+|03| Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.        |
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
