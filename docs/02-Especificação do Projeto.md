@@ -1,16 +1,14 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta seção, apresentamos o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições identificadas para o desenvolvimento deste projeto.  
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Elena tem 27 anos, é desenvolvedora de sistemas e trabalha visitando clientes por todo Brasil. Ao longo de sua vida, já reparou que, após comer certos tipos de alimentos, sente um intenso desconforto intestinal. Recentemente, descobriu ser intolerante ao glúten, proteína presente em diversos alimentos, como pães, sopas e cervejas, por exemplo. Por trabalhar viajando e preferir se hospedar em Airbnb's, mesmo com acesso a uma cozinha para preparar suas próprias refeições, Elena nem sempre confere verificar se os ingredientes disponíveis (ou adquiridos no supermercado da cidade em que está) são livres de glúten. Para evitar uma crise alérgica, Elena sente a necessidade de buscar receitas que são especificamente preparadas com ingredientes livres de glúten. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Isabella tem 33 anos, é formada em Design Gráfico, trabalha em uma agência publicitária e faz uma especialização em Design UI/UX, em uma universidade privada de Belo Horizonte. Isabella já percebeu que, por estar trabalhando e estudando, tem pouco tempo para realizar tarefas domésticas, como cozinhar. Além de ter o desafio de se organizar para conseguir equilibrar todos os aspectos de sua vida, há a necessidade de se alimentar bem, para evitar futuros problemas de saúde ou demais consequências que a falta de tempo pode causar. Dessa forma, visando uma maior praticidade em sua vida, sente a necessidade de buscar por receitas específicas que fiquem prontas com poucos ingredientes, geralmente os que já tem em casa.
+
+John tem 45 anos, já trabalhou em um restaurante no centro de São Paulo e agora está estudando como/para abrir seu próprio restaurante, assistindo à aulas online de administração em uma universidade pública de Minas Gerais e cursando gastronomia em uma universidade privada de sua cidade. Para além do crescimento em sua profissão e futuro negócio, John sempre amou cozinhar e sempre buscou praticar novas receitas. Misturando sua paixão e sua profissão, John sente a necessidade de se manter atualizado e praticar novas receitas para a criação de diversos pratos. Então, John busca se inspirar em receitas fornecidas pela aplicação para desenvolver novas.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -28,8 +26,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para alimentar bem |
+|Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para viajar a trabalho com tranquilidade |
+|Eu, Isabella, Usuário do sistema  | Buscar por receitas que utilizem os alimentos que já tenho em casa    | Para ganhar tempo para realizar minhas demais tarefas |
+|Eu, John, Usuário do sistema  | Buscar novas receitas    | Para manter-me atualizado no mundo da gastronomia |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
