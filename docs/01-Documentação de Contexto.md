@@ -22,7 +22,7 @@ Neste contexto. Este trabalho tem como objetivo apresentar receitas simples e pr
 
 ## Não sei cozinhar com o que tenho, estou com pressa
 
-Embora as iniciativas acerca da educação ambiental tenham resultado em mudanças nos hábitos sociais, esse é um tema que demanda um alcance maior que o atual para, de fato, gerar uma mudança significativa. Nesse sentido, pensando em uma forma de ampliar os efeitos positivos do consumo consciente, foi observada a necessidade de uma ponte entre pessoas com alimentos em casa que gostariam de utilizá-los, mas não sabem como preparar as refeições, e pessoas que buscam preparar refeições rapidamente com o que possuem na dispensa e geladeira de suas casas.
+Embora as iniciativas acerca da educação ambiental tenham resultado em mudanças nos hábitos sociais, esse é um tema que demanda um alcance maior que o atual para, de fato, gerar uma mudança significativa. Nesse sentido, pensando em uma forma de ampliar os efeitos positivos do consumo consciente, foi observada a necessidade de uma ponte entre pessoas com alimentos em casa que gostariam de utilizá-los, mas não sabem como preparar as refeições, pessoas que buscam preparar refeições rapidamente com o que possuem na dispensa e geladeira de suas casas, pessoas que possuem restrições alimentares e precisam de criatividade para preparação das refeições e, pessoas que buscam por receitas.
 
 ## Objetivos
 
@@ -31,7 +31,8 @@ Considerando os problemas apresentados, o objetivo geral do projeto é desenvolv
 Na aplicação, será possível para o usuário: 
 
 - Pesquisar receitas práticas filtrando por alimentos que possuem em casa;
-
+- Pesquisar receitas práticas filtrando por alimentos específicos;
+- Pesquisar receitas novas;
 - Criar uma conta no site e cadastrar receitas de forma simples. 
 
 ## Justificativa
@@ -40,4 +41,4 @@ Pensando na praticidade que o meio tecnológico traz para a rotina de seus usuá
 
 ## Público-Alvo
 
-Estabeleceu-se como público-alvo da aplicação qualquer pessoa com mais de 18 anos, que tem interesse....
+Estabeleceu-se como público-alvo da aplicação qualquer pessoa com mais de 18 anos, que tem interesse em preparar suas próprias receitas de maneira rápida e prática.
