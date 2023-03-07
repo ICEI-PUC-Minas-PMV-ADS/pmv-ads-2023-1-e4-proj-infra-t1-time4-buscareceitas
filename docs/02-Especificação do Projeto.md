@@ -166,7 +166,7 @@ O diagrama de rede pode ser entendido como um gráfico que mostra as tarefas que
 
 A seguir, encontra-se o diagrama de redes do projeto 
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Diagrama de Redes](img/Diagramaderedes.png)
 
 O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. A seguir, encontra-se o diagrama de Gantt do projeto XXXXX, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
