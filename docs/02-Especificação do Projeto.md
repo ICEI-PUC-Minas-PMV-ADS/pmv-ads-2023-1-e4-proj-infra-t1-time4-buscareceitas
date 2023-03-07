@@ -227,7 +227,7 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do XXXX
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento](img/orcamento.png)
 
 Memória de Cálculo
 -	Recursos Humanos = 6 pessoas x R$ 60,00/Hora x 64 Horas (mês) = R$ 23.040,00 x 5meses = 115.200,00
