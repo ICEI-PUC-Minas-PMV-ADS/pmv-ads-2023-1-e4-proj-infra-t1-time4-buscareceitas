@@ -170,7 +170,7 @@ A seguir, encontra-se o diagrama de redes do projeto
 
 O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. A seguir, encontra-se o diagrama de Gantt do projeto XXXXX, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Gráfico de Gantt](img/graficogantt.png)
 
 ## Gerenciamento de Equipe
 
@@ -228,3 +228,9 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do XXXX
 
 ![Orçamento](img/02-orcamento.png)
+
+Memória de Cálculo
+-	Recursos Humanos = 6 pessoas x R$ 60,00/Hora x 64 Horas (mês) = R$ 23.040,00 x 5meses = 115.200,00
+-	Hardware = 6 Computadores, monitores, teclados, mouses e headphones x R$ 2455,00 = R$ 14.730,00
+-	Rede = 6 internet banda larga x R$ 100,00/Mês x 5 Meses = R$ 3.000,00
+-	Serviços = 6 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.500,00
