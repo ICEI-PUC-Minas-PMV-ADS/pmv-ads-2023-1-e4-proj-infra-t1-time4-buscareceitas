@@ -104,7 +104,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até 07/12/2022. |
+|01| O projeto deverá ser entregue até 25/06/2023. |
 |02| Não pode ser desenvolvido um módulo de backend.        |
 |03| Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.        |
 
