@@ -64,12 +64,18 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+ASeguem abaixo a relação dos indicadores de desempenho desenvolvidos para o projeto:
 
-Usar o seguinte modelo: 
+| Nº | Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
+|----|-----------|----------|-----------|---------|----------------|-------------|------|---------------|
+|	1	|	Taxa de buscas realizadas	|	Avaliar o sucesso de busca de receitas da plataforma|	Número de pesquisas efetuadas	|	Medir % de receitas pesquisadas durante um mês	|	Play Store e Apple Store	|	Qualidade do produto	|	500 pesquisas por mês |	Trimestral	|
+|	2	|	Taxa de download do aplicativo	|	Verificar a quantidade de downloads do aplicativo	|	Avaliar a quantidade de pessoas que baixaram e utilizaram o app no último mês	|	Número de downloads por mês	|	Play Store e Apple Store	|	Difusão do produto e da marca	|	70 usuários por mês	|	Mensal	|
+|	3	|	Número de acessos ao site	|	Verificar a quantidade de pessoas que acessam a versão Web	|	Avaliar a quantidade de acessos únicos ao site	|	Acessos únicos por mês	|	Google Analytics	|	Difusão do produto e da marca	|	70 usuários por mês	|	Mensal	|
+|	4	|	Percentual de reclamações mobile	|	Verificar o índice de reclamações recebidas em relação ao app e respondê- las	|	Razão entre o número de reclamações e a quantidade de downloads	|	Verificar as reclamações recebidas	|	Play Store e Apple Store	|	Qualidade do produto	|	Nenhuma reclamação	|	Mensal	|
+|	5	|	Percentual de reclamações web	|	Verificar o índice de reclamações recebidas em relação à plataforma Web e respondê-las	|	Razão entre o número de reclamações e a quantidade de acessos únicos	|	Verificar as reclamações recebidas	|	Formulário de Contato	|	Qualidade do produto	|	Nenhuma reclamação	|	Mensal	|
+|	6	|	Taxa de resolução de problemas	|	Resolver as reclamações feitas pelos usuários	|	Verificar as reclamações feitas pelos usuários, identificar possíveis erros no sistema e resolvê-los	|	Indice de avaliação de resolução de problemas	|	Play Store, Apple Store, Formulário de contato	|	Qualidade do produto	|	100%	|	Mensal	|
+|	7	|	Período de inatividade		Verificar o tempo de inatividade dos usuários em relação ao app	|	Medir o intervalo de tempo médio que os usuários ficam sem utilizar o app	|	Média das diferenças entre as datas de acesso	|	Melhoria continua	|	Banco de Dados do aplicativo	|	Tempo mínimo entre as pesquisas	|	Semestral	| 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
