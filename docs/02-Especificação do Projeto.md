@@ -47,9 +47,9 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 Ainda que estamos cercados de tanta tecnologia, ainda nos deparamos com algumas pessoas que tem aquele livro ou caderno de receitas em seu armário de cozinha.
 A Cada dia que se passa o mundo de receitas vem se tornando grandioso, tornando o acumulo de livros e cadernos escritos.
 
-### Análise do AMbiente Externo
+### Análise do Ambiente Externo
 
-Entretanto, é necessário considerar alguns dificultores que podem inviabilizar a elaboração da proposta seguinte. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem comoo curto período de teste dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolverestratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o ******** no setor da culinária.
+Entretanto, é necessário considerar alguns dificultores que podem inviabilizar a elaboração da proposta seguinte. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como curto período de teste dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o ******** no setor da culinária.
 
 ### Descrição Geral da Proposta
 
