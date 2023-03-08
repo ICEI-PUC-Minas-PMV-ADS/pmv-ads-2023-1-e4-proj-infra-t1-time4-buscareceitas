@@ -44,11 +44,18 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Ainda que estamos cercados de tanta tecnologia, ainda nos deparamos com algumas pessoas que tem aquele livro ou caderno de receitas em seu armário de cozinha.
+A Cada dia que se passa o mundo de receitas vem se tornando grandioso, tornando o acumulo de livros e cadernos escritos.
+
+### Análise do AMbiente Externo
+
+Entretanto, é necessário considerar alguns dificultores que podem inviabilizar a elaboração da proposta seguinte. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem comoo curto período de teste dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolverestratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o ******** no setor da culinária.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Considerando o atual cenário em que estamos vivendo, muitas pessoas tem acesso a um computador, tablet ou smartphone.
+Nossa proposta é aproveitar o acesso a tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um livro de receitas em forma de aplicativo.
+
 
 ### Processo 1 – NOME DO PROCESSO
 
