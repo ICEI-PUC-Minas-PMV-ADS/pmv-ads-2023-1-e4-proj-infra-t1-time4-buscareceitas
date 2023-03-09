@@ -15,7 +15,6 @@ O que tem pra hoje? é um aplicativo que apresenta aos seus usuários receitas d
 ## Integrantes
 
 - Cristiano Garcia Ridolfi
-- Kelly Cesário de Oliveira
 - Michelle Leal Rodrigues
 - Pedro Daniel Jardim
 - Renata Diniz Guimarães de Oliveira
