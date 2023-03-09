@@ -263,7 +263,7 @@ Atualizações sobre o plano de gerenciamento de recursos.
 
 Segue timeline
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Simple Project Timeline](img/TimelineReceitas.png)
 
 ## Gestão de Orçamento
 
