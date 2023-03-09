@@ -271,10 +271,10 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do XXXX
 
-![Orçamento](img/orcamento.png)
+![Orçamento](img/orcamento1.png)
 
 Memória de Cálculo
--	Recursos Humanos = 6 pessoas x R$ 60,00/Hora x 64 Horas (mês) = R$ 23.040,00 x 5meses = 115.200,00
--	Hardware = 6 Computadores, monitores, teclados, mouses e headphones x R$ 2455,00 = R$ 14.730,00
--	Rede = 6 internet banda larga x R$ 100,00/Mês x 5 Meses = R$ 3.000,00
--	Serviços = 6 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.500,00
+-	Recursos Humanos = 5 pessoas x R$ 60,00/Hora x 64 Horas (mês) = R$ 23.040,00 x 5meses = 96.000,00
+-	Hardware = 5 Computadores, monitores, teclados, mouses e headphones x R$ 2455,00 = R$ 12.275,00
+-	Rede = 5 internet banda larga x R$ 100,00/Mês x 5 Meses = R$ 2.500,00
+-	Serviços = 5 despesas (energia, hospedagem) x R$ 50,00/Mês x 5 Meses = R$ 1.250,00
