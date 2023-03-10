@@ -3,23 +3,11 @@
 Nesta seção, apresentamos o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições identificadas para o desenvolvimento deste projeto.  
 
 ## Personas
+![Persona1](img/1.png)
 
-Elena tem 27 anos, é desenvolvedora de sistemas e trabalha visitando clientes por todo Brasil. Ao longo de sua vida, já reparou que, após comer certos tipos de alimentos, sente um intenso desconforto intestinal. Recentemente, descobriu ser intolerante ao glúten, proteína presente em diversos alimentos, como pães, sopas e cervejas, por exemplo. Por trabalhar viajando e preferir se hospedar em Airbnb's, mesmo com acesso a uma cozinha para preparar suas próprias refeições, Elena nem sempre confere verificar se os ingredientes disponíveis (ou adquiridos no supermercado da cidade em que está) são livres de glúten. Para evitar uma crise alérgica, Elena sente a necessidade de buscar receitas que são especificamente preparadas com ingredientes livres de glúten. 
+![Persona1](img/2.png)
 
-Isabella tem 33 anos, é formada em Design Gráfico, trabalha em uma agência publicitária e faz uma especialização em Design UI/UX, em uma universidade privada de Belo Horizonte. Isabella já percebeu que, por estar trabalhando e estudando, tem pouco tempo para realizar tarefas domésticas, como cozinhar. Além de ter o desafio de se organizar para conseguir equilibrar todos os aspectos de sua vida, há a necessidade de se alimentar bem, para evitar futuros problemas de saúde ou demais consequências que a falta de tempo pode causar. Dessa forma, visando uma maior praticidade em sua vida, sente a necessidade de buscar por receitas específicas que fiquem prontas com poucos ingredientes, geralmente os que já tem em casa.
-
-John tem 45 anos, já trabalhou em um restaurante no centro de São Paulo e agora está estudando como/para abrir seu próprio restaurante, assistindo à aulas online de administração em uma universidade pública de Minas Gerais e cursando gastronomia em uma universidade privada de sua cidade. Para além do crescimento em sua profissão e futuro negócio, John sempre amou cozinhar e sempre buscou praticar novas receitas. Misturando sua paixão e sua profissão, John sente a necessidade de se manter atualizado e praticar novas receitas para a criação de diversos pratos. Então, John busca se inspirar em receitas fornecidas pela aplicação para desenvolver novas.
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
+![Persona1](img/3.png)
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -31,21 +19,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu, Isabella, Usuário do sistema  | Buscar por receitas que utilizem os alimentos que já tenho em casa    | Para ganhar tempo para realizar minhas demais tarefas |
 |Eu, John, Usuário do sistema  | Buscar novas receitas    | Para manter-me atualizado no mundo da gastronomia |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
 Ainda que estamos cercados de tanta tecnologia, ainda nos deparamos com algumas pessoas que tem aquele livro ou caderno de receitas em seu armário de cozinha.
-A Cada dia que se passa o mundo de receitas vem se tornando grandioso, tornando o acumulo de livros e cadernos escritos.
+A cada dia que se passa o mundo de receitas vem se tornando grandioso, tornando o acumulo de livros e cadernos escritos.
 
 ### Análise do Ambiente Externo
 
