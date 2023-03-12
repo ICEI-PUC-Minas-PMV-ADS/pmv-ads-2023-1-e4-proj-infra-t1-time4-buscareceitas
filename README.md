@@ -1,4 +1,4 @@
-# O quê tem pra hoje?
+# O que tem pra hoje?
 
 `Tecnologia em Análise e Desenvolvimento de Sistemas`
 
