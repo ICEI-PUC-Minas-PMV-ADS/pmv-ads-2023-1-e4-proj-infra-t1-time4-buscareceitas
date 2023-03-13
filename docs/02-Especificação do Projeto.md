@@ -14,8 +14,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para alimentar bem |
-|Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para viajar a trabalho com tranquilidade |
+|Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para me alimentar bem enquanto viajo a trabalho |
 |Eu, Isabella, Usuário do sistema  | Buscar por receitas que utilizem os alimentos que já tenho em casa    | Para ganhar tempo para realizar minhas demais tarefas |
 |Eu, John, Usuário do sistema  | Buscar novas receitas    | Para manter-me atualizado no mundo da gastronomia |
 
@@ -24,34 +23,29 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Ainda que estamos cercados de tanta tecnologia, ainda nos deparamos com algumas pessoas que tem aquele livro ou caderno de receitas em seu armário de cozinha.
-A cada dia que se passa o mundo de receitas vem se tornando grandioso, tornando o acumulo de livros e cadernos escritos.
+Ainda que estamos cercados de tanta tecnologia, nos deparamos com algumas pessoas que tem aquele livro ou caderno de receitas em seu armário de cozinha.
+A cada dia que se passa o mundo de receitas vem se tornando grandioso, e manter o armazenamento em cadernos escritos torna-se inviável. Também existe a possibilidade de salvar digitalmente em diversos aplicativos e sites, mas buscar essas receitas posteriormente pode não ser um processo tão eficiente.
+
+### Processo – Buscar e Salvar Receitas
+![image](https://user-images.githubusercontent.com/86931711/224586527-b00c7e7c-7ad1-4621-93c8-10b96bc10f6e.png)
+
 
 ### Análise do Ambiente Externo
 
-Entretanto, é necessário considerar alguns dificultores que podem inviabilizar a elaboração da proposta seguinte. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como curto período de teste dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o ******** no setor da culinária.
+Entretanto, é necessário considerar alguns dificultores que podem inviabilizar a elaboração da proposta seguinte. A restrição no prazo de planejamento e elaboração da aplicação móvel, bem como curto período de teste dele, pode ocasionar imprecisão na aplicabilidade e utilização do software. O mercado de aplicativos é dinâmico e muito amplo, sendo assim, é importante atentar-se para as plataformas existentes que oferecem propostas similares. É interessante desenvolver estratégias direcionadas para a implementação de um aplicativo com diferenciais competitivos destacando o "O que tem pra hoje?" no setor da culinária.
 
 ### Descrição Geral da Proposta
 
 Considerando o atual cenário em que estamos vivendo, muitas pessoas tem acesso a um computador, tablet ou smartphone.
-Nossa proposta é aproveitar o acesso a tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um livro de receitas em forma de aplicativo.
+Nossa proposta é aproveitar o acesso a tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um livro de receitas em forma de aplicativo. Nele será possível armazenar e buscar receitas de forma mais eficiênte ao utilizar filtros, por exemplo, de ingredientes e tempo de preparo, facilitando assim a rotina dos usuários.
 
+### Processo – Buscar e Salvar Receitas
+![image](https://user-images.githubusercontent.com/86931711/224587176-f7278ab0-dab0-4522-a9e9-493dde9b2950.png)
 
-### Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
-ASeguem abaixo a relação dos indicadores de desempenho desenvolvidos para o projeto:
+Seguem abaixo a relação dos indicadores de desempenho desenvolvidos para o projeto:
 
 | Nº | Indicador | Objetivo | Descrição | Cálculo | Fonte de Dados | Perspectiva | Meta | Periodicidade |
 |----|-----------|----------|-----------|---------|----------------|-------------|------|---------------|
@@ -93,19 +87,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend.        |
 |03| Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.        |
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -117,27 +98,39 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 ## Diagrama de Casos de Uso
+
+O diagrama abaixo representa a usabilidade da aplicação pelo usuário. Inicialmente é feito o acesso da aplicação onde o usuário deverá se cadastrar no site, em seguida ele tem as opções de buscar receitas com as características desejadas ou incluir suas próprias receitas para ficarem armazenadas.
 
 ![image](https://user-images.githubusercontent.com/86931711/224191624-5b5e3a53-a12f-446d-871e-30ea1521c29e.png)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+Ao longo do projeto, os requisitos podem mudar e o impacto desta mudança deve ser analisado e os riscos avaliados. "Para que a análise de impacto de uma mudança possa ser realizada de forma adequada, é necessário garantir que as ligações entre os requisitos ou entre os requisitos e outros elementos do sistema sejam conhecidas e possam ser utilizadas como base para essa análise." (REINEHR, 2020).
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+A tabela que se segue apresenta os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicamos uma técnica de priorização de requisitos e detalhamos, em sequência, como a técnica foi aplicada.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+A técnica MoSCoW foi aplicada para priorização dos requsitos:
 
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+- Must Have (Tenho que fazer)
+- Should Have (Devo fazer)
+- Could Have (Poderia fazer)
+- Won’t Have (Não vou fazer)
 
+Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
+
+| Importância |    Cod. EAP   |                     Nome                     |      Tipo     |                      Critérios de Aceitação                      |                                                  Descrição                                                  |
+|:-----------:|:-------------:|:--------------------------------------------:|:-------------:|:----------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|
+| Must have   | RF-001        | Criação de Perfil                            | Funcional     | Criação de usuário sendo feita com sucesso                       | O sistema deverá permitir a criação de um perfil de usuário associado ao e-mail do usuário                  |
+| Must have   | RF-002        | Exclusão e alteração dos Dados               | Funcional     | Exclusão e alteração de dados do usuário sendo feita com sucesso | O sistema deverá permitir a alteração e a exclusão dos dados e qualquer informação inserida pelos usuários. |
+| Must have   | RF-003 RF-004 | Inclusão, edição e exclusão de receitas      | Funcional     | Operações CRUD                                                   | O sistema deverá permitir a inserção, a alteração e a exclusão de receitas.                                 |
+| Should have  | RF-005        | Buscar Receitas                              | Funcional     | Buscar receitas utilizando filtros                               | O sistema deverá permitir a busca de receitas utilizando filtros.                                           |
+| Must have   | RNF-001       | Responsividade do Sistema em ambiente móveis | Não-Funcional | Responsividade do Sistema em ambiente móveis com sucesso         | O sistema deve ser responsivo para rodar em diversos dispositivos móveis.                                   |
+| Must have   | RNF-002       | Implementação de Framework                   | Não-Funcional | Implementação do React Native feita com sucesso                  | O sistema deve ser implementado utilizando React Native.                                                    |
+| Should have | RNF-003       | Uso de Banco do MySQL                        | Não-Funcional | Implementação do banco de dados em MySQL                         | A persistência dos dados será feita no banco MySQL.                                                         |
+| Could have  | RNF-004       | Tempo de Requisição                          | Não-Funcional | Tempo de Requisição deve atender á descrição                     | O sistema deve processar requisições do usuário em no máximo 11 segundos.                                   |
+
+![image](https://user-images.githubusercontent.com/86931711/224591952-81bc407a-6a6a-495c-b1f3-b0ffb9f1d801.png)
 
 # Gerenciamento de Projeto
 
