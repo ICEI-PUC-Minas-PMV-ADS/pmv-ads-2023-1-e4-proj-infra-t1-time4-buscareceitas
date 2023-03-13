@@ -66,7 +66,7 @@ Seguem abaixo a relação dos indicadores de desempenho desenvolvidos para o pro
 | RF-002 | O sistema deverá permitir a alteração e a exclusão dos dados de usuários.   | ALTA | 
 | RF-003 | O sistema deverá permitir armazenar as receitas. | ALTA |
 | RF-004 | O sistema deverá permitir a edição e a exclusão das receitas.    | MÉDIA |
-| RF-005 | O sistema deverá permitir a busca de receitas. | BAIXA |
+| RF-005 | O sistema deverá permitir a busca de receitas com filtro. | ALTA |
 
 ### Requisitos não Funcionais
 
