@@ -14,7 +14,9 @@ A alimentação é um processo biológico e cultural que traduz na escolha, prep
 
 O desconhecimento dos princípios nutritivos dos alimentos, bem como o seu não aproveitamento, ocasionam o desperdício de toneladas de recursos alimentares. A utilização dos alimentos em sua totalidade combate ao desperdício de alimentos. 
 
-A alimentação é um aspecto fundamental para a manutenção da saúde e do bem-estar. Comer de forma equilibrada e saudável é uma necessidade básica para todos. No entanto, muitas vezes, falta tempo e disposição para preparar refeições, o que nos leva ao consumo de alimentos industrializados e fast-foods. 
+Alimentação consciente ou consumo consciente de alimentos é uma abordagem que visa promover escolhas alimentares mais saudáveis, sustentáveis e éticas. Isso inclui uma série de práticas que vão desde a seleção dos alimentos até a maneira como eles são produzidos, processados, transportados e consumidos. A alimentação é um aspecto fundamental para a manutenção da saúde e do bem-estar. Comer de forma equilibrada e saudável é uma necessidade básica para todos. No entanto, muitas vezes, falta tempo e disposição para preparar refeições, o que nos leva ao consumo de alimentos industrializados e fast-foods. 
+
+Adotar práticas de consumo consciente de alimentos pode trazer benefícios para a sua saúde, para o meio ambiente e para a sociedade como um todo. Além disso, ao escolher alimentos de maneira consciente, você está contribuindo para a construção de um mundo mais justo e sustentável.
 
 Neste contexto. Este trabalho tem como objetivo apresentar receitas simples e práticas que podem ser preparadas rapidamente com os alimentos que já temos em casa, contribuindo com uma alimentação mais nutritiva, mesmo em tempos de correria e restrições. 
 
@@ -22,7 +24,7 @@ Neste contexto. Este trabalho tem como objetivo apresentar receitas simples e pr
 
 ## Não sei cozinhar com o que tenho, estou com pressa
 
-Embora as iniciativas acerca da educação ambiental tenham resultado em mudanças nos hábitos sociais, esse é um tema que demanda um alcance maior que o atual para, de fato, gerar uma mudança significativa. Nesse sentido, pensando em uma forma de ampliar os efeitos positivos do consumo consciente, foi observada a necessidade de uma ponte entre pessoas com alimentos em casa que gostariam de utilizá-los, mas não sabem como preparar as refeições, pessoas que buscam preparar refeições rapidamente com o que possuem na dispensa e geladeira de suas casas, pessoas que possuem restrições alimentares e precisam de criatividade para preparação das refeições e, pessoas que buscam por receitas.
+Embora as iniciativas acerca da educação ambiental tenham resultado em mudanças nos hábitos sociais, esse é um tema que demanda um alcance maior que o atual para, de fato, gerar uma mudança significativa. Nesse sentido, pensando em uma forma de ampliar os efeitos positivos do consumo consciente, foi observada a necessidade de uma ponte entre pessoas com alimentos em casa que gostariam de utilizá-los, mas não sabem como preparar as refeições, pessoas que buscam preparar refeições rapidamente com o que possuem na dispensa e geladeira de suas casas, pessoas que possuem restrições alimentares e precisam de criatividade para preparação das refeições, além das pessoas que buscam por receitas práticas e rápidas para seu dia a dia.
 
 ## Objetivos
 
