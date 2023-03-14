@@ -57,7 +57,24 @@ Nosso trabalho utiliza métodos ágeis como metodologia de trabalho de acompanha
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+<p align="justify">Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro Kanban no Projects, própria ferramenta do Github, 
+com estrutura e desenvolvimento nas seguintes status:
+
+**To Do:** Nessa coluna, estão alocadas as tarefas estabelecidas para a Sprint atual e que ainda não foram iniciadas, assim como os membros da equipe responsáveis por cada item. <br>
+
+**In progress:** Tarefas que já foram iniciadas mas ainda não finalizadas, são acompanhadas rotineiramente seguindo os ritos da metodologia ágil.<br>
+
+**Test:** Tarefas iniciadas e finalizadas, passam por validações de negócio e de lógica, assim preservando um controle de qualidade e evitando que aconteça bugs inesperados.<br>
+
+**Test Return:** Coluna para sinalizar tarefas que de alguma maneira não passaram no teste de qualidade e sendo necessário um retrabalho para passar no teste de qualidade.<br>
+
+**Waiting Deploy:** Quando uma tarefa tiver sido iniciada e finalizada, é movida para a coluna de waiting deploy, para que o responsável revise o código feito e aprove para as branch de teste.<br>
+
+**Done:** Tarefas concluídas e aprovadas no teste de qualidade.
+
+O quadro kanban do projeto no Github está disponível em: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/248Projects e é apresentado, no estado atual, na Figura abaixo.
+   
+![Quadro Kanban no dia 14/03/2023](img/divisãodetarefasetapa1.png)
 
 ### Ferramentas
 
