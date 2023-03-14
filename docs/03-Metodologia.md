@@ -33,7 +33,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Uma representação gráfica deste fluxo de trabalho (obtida do artigo da Atlassian encontrado na seguinte URL: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow) pode ser observada na figura abaixo:</p>
 <br>
 ![gitflow](https://user-images.githubusercontent.com/74699119/159187821-2242dcea-f38f-4f8a-b2ef-0991bdfdd0b8.png)
-<p align="center"><b>Figura 2</b> - Fluxo de controle do código fonte no repositório github  </p>
+<p align="center"><b>Figura </b> - Fluxo de controle do código fonte no repositório github  </p>
 <br>
 </div> 
 <p align="justify">A gerência de issues será feita utilizando o próprio sistema do Github dentro do repositório do projeto, adotando-se a seguinte convenção para
