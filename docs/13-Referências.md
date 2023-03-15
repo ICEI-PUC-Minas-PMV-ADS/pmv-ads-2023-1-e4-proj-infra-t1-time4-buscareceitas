@@ -8,6 +8,8 @@ BATISTA, Maria Aparecida Feitosa. O impacto do lixo doméstico no meio ambiente.
 
 HOCH, Patrícia Adriani. A obsolescência programada e os impactos ambientais causados pelo lixo eletrônico: o consumo sustentável e a educação ambiental como alternativas. SEMINÁRIO NACIONAL DEMANDAS SOCIAIS E POLÍTICAS PÚBLICAS NA SOCIEDADE CONTEMPORÂNEA (12., 2016, Santa Cruz do Sul). **Anais...**. Santa Cruz do Sul, 2016. 
 
+REINEHR, Sheila. **Engenharia de Requisitos.** Porto Algre: Grupo A, 2020. *E-book*.
+
 TONI, Deonir de; LARENTIS, Fabiano; MATTIA, Adilene. Consumo consciente, valor e lealdade em produtos ecologicamente corretos. **Revista de Administração FACES Journal**, v. 11, n. 3, p. 136-156, 2012. 
 
 WACKERNAGEL, Mathis; GALLI, Alessandro. Recursos de um planeta finito. **Desafios do Desenvolvimento**, Brasília: IPEA, v.6, n.50, 2009. 
