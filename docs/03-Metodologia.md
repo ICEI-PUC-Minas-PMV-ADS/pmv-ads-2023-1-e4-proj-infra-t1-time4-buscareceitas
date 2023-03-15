@@ -48,12 +48,18 @@ etiquetas:</p>
 
 ### Divisão de Papéis
 
-Nosso trabalho utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+A equipe AutoApp utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
 -	Product Owner (P.O.): Felipe Augusto Lara Soares;
--	Scrum Master: Pedro Daniel Jardim;
+-	Scrum Master: Vania Maria Tiburzio Rezende;
 -	Equipe de Desenvolvimento: Cristiano Garcia, Michelle Leal Rodrigues, Pedro Daniel Jardim, Renata Diniz Guimarães de Oliveira e Vania Maria Tiburzio Rezende;
 -	Equipe de Design: Michelle Leal Rodrigues, Renata Diniz Guimarães de Oliveira e Vania Maria Tiburzio Rezende.
+
+A equipe trabalhará com divisões de tarefas e com encontros semanais após reunião com o P.O. para planejar e tirar dúvidas a respeito das tarefas delegadas.
+Na primeira reunião de cada etapa, as tarefas serão organizadas e distribuídas.
+
+Na segunda-feira que precede a entrega da etapa, a equipe irá se se reunir para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
+A Scrum Master acompanhará estas sprints (tarefas) semanalamente.
 
 ### Processo
 
