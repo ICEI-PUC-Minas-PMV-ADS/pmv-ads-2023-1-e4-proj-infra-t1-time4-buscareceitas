@@ -61,6 +61,12 @@ Na primeira reunião de cada etapa, as tarefas serão organizadas e distribuída
 Na segunda-feira que precede a entrega da etapa, a equipe irá se se reunir para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
 A Scrum Master acompanhará estas sprints (tarefas) semanalamente.
 
+O projeto seguirá o seguinte fluxo de metodologia:
+
+![Scrum](img/SCRUM.png)
+
+Utilizando essa metodologia, prevê-se ter uma maior produtividade, melhoria na comunicação, maior qualidade, integração entre os integrantes, respostas a imprevistos.
+
 ### Processo
 
 <p align="justify">Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro Kanban no Projects, própria ferramenta do Github, 
