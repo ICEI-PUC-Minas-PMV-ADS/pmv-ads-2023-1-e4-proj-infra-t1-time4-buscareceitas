@@ -151,6 +151,7 @@ A equipe AutoApp utiliza métodos ágeis como metodologia de trabalho de acompan
 
 A equipe trabalhará com divisões de tarefas e com encontros semanais após reunião com o P.O. para planejar e tirar dúvidas a respeito das tarefas delegadas.
 Na primeira reunião de cada etapa, as tarefas serão organizadas e distribuídas.
+
 Na segunda-feira que precede a entrega da etapa, a equipe irá se se reunir para revisar e alinhar se o que foi solicitado está pronto para ser entregue.
 A Scrum Master acompanhará estas sprints (tarefas) semanalamente.
 
@@ -174,7 +175,7 @@ A seguir, encontra-se o diagrama de redes do projeto
 
 ![Diagrama de Redes](img/Diagramaderedes.png)
 
-O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. A seguir, encontra-se o diagrama de Gantt do projeto XXXXX, utilizado como ferramenta de gerenciamento do cronograma do projeto.
+O gráfico de Gantt, ou diagrama de Gantt, também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. A seguir, encontra-se o diagrama de Gantt do projeto **O que tem pra hoje?**, utilizado como ferramenta de gerenciamento do cronograma do projeto.
 
 ![Gráfico de Gantt](img/graficogantt.png)
 
@@ -231,7 +232,7 @@ Segue timeline
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo. Afinal, “[é] o processo que agrega os custos estimados de atividades individuais ou pacotes de trabalho para estabelecer uma linha de base dos custos autorizada.” (VARGAS, 2018).
 
-Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do XXXX
+Nesse contexto, segue abaixo o orçamento estimado para o desenvolvimento do projeto de implantação do **O que tem pra hoje?**
 
 ![Orçamento](img/orcamento1.png)
 
