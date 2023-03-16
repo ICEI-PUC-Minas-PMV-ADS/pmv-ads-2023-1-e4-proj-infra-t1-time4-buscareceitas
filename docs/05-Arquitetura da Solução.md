@@ -39,6 +39,8 @@ Neste projeto, utilizaremos para aplicação:
 
 - Backend: Javascript (node)
 
+- o [MongoDB](https://www.mongodb.com/pt-br) foi escolhido como BD não-relacional, tendo como vantagens como ser opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL. 
+
 - Para testar a aplicação de forma nativa, utilizamos o Expo Go direto dos celulares que o grupo tem em mãos.
 
 -  o [React Native Paper](https://callstack.github.io/react-native-paper/), uma coleção de componentes já prontos para uso.
