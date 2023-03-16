@@ -72,9 +72,9 @@ Seguem abaixo a relação dos indicadores de desempenho desenvolvidos para o pro
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-| RNF-001 | O sistema deve ser responsivo para rodar em diversos dispositivos móveis | ALTA | 
-| RNF-002 | O sistema deve ser implementado utilizando React Native. | ALTA |
-| RNF-003 | A persistência dos dados será feita no banco MySQL.  |  MÉDIA |
+| RNF-001 | A aplicação deve ser compatível com sistemas Android e iOS. | ALTA | 
+| RNF-002 | A aplicação deve ser compatível com os principais navegadores Web. | ALTA |
+| RNF-003 | O projeto deverá ser implementado com um banco de dados NoSQL. |  MÉDIA |
 | RNF-004 | O sistema deve processar requisições do usuário em no máximo 11 segundos. |  BAIXA |
 
 ## Restrições
