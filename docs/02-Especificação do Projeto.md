@@ -67,7 +67,7 @@ Seguem abaixo a relação dos indicadores de desempenho desenvolvidos para o pro
 | RF-003 | O sistema deverá permitir armazenar as receitas. | ALTA |
 | RF-004 | O sistema deverá permitir a edição e a exclusão das receitas.    | MÉDIA |
 | RF-005 | O sistema deverá permitir a busca de receitas com a opção de filtrar sua pesquisa. | ALTA |
-
+| RF-006 | o sistema deverá permitir a opção de salvar a receita escolhida.  | BAIXA |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
@@ -76,6 +76,7 @@ Seguem abaixo a relação dos indicadores de desempenho desenvolvidos para o pro
 | RNF-002 | A aplicação deve ser compatível com os principais navegadores Web. | ALTA |
 | RNF-003 | O projeto deverá ser implementado com um banco de dados NoSQL. |  MÉDIA |
 | RNF-004 | O sistema deve processar requisições do usuário em no máximo 11 segundos. |  BAIXA |
+
 
 ## Restrições
 
