@@ -37,7 +37,7 @@ Neste projeto, utilizaremos para aplicação:
 
 - o [Expo](https://expo.dev/) para, principalmente, construir (_buildar_) a aplicação para diferentes dispositivos Android e IOS, sem a necessidade de utilizar ambientes de desenvolvimento especializados, como o Android Studio e o XCode. 
 
-- Backend: Javascript (node)
+- Backend: [NodeJS](https://nodejs.org/en/) foi escolhido como tecnologia para o desenvolvimento no lado do backend, devido o uso de dados em JSON permitem que o Node.js funcione sem a incompatibilidade de impedância e a conversão de dados.
 
 - o [MongoDB](https://www.mongodb.com/pt-br) foi escolhido como BD não-relacional, tendo como vantagens como ser opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL. 
 
