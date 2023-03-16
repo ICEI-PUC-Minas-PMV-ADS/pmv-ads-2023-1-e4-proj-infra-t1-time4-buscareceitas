@@ -14,7 +14,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |---------------|---------------------------|----------------------------|
 | Repositório de Código Fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t1-time4-buscareceitas/blob/main/README.md |
 | Documentação do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t1-time4-buscareceitas/tree/main/docs |
-| Projeto de Interface  | Draw io | https://draw.io |
+| Projeto de Interface  | Canva | https://canva.com |
 | Diagramaas  | Draw io | https://draw.io |
 | Gerenciamento do Projeto | Github | https://github.com |
 
