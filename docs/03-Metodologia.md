@@ -48,7 +48,7 @@ etiquetas:</p>
 
 ### Divisão de Papéis
 
-A equipe AutoApp utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+A equipe O Que tem pra Hoje utiliza métodos ágeis como metodologia de trabalho de acompanhamento do projeto. O método Scrum foi definido como base do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
 -	Product Owner (P.O.): Felipe Augusto Lara Soares;
 -	Scrum Master: Vania Maria Tiburzio Rezende;
