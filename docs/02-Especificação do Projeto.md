@@ -17,7 +17,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para me alimentar bem enquanto viajo a trabalho |
 |Eu, Isabella, Usuário do sistema  | Buscar por receitas que utilizem os alimentos que já tenho em casa    | Para ganhar tempo para realizar minhas demais tarefas |
 |Eu, John, Usuário do sistema  | Buscar novas receitas    | Para manter-me atualizado no mundo da gastronomia |
-
+|Eu, John, Usuário do sistema  | Salvar as receitas que gostei | Para manter um histórico e acessar facilmente quando necessário |
 
 ## Modelagem do Processo de Negócio 
 
@@ -40,7 +40,7 @@ Considerando o atual cenário em que estamos vivendo, muitas pessoas tem acesso 
 Nossa proposta é aproveitar o acesso a tecnologia e desenvolver uma aplicação móvel em que os usuários tenham na palma das suas mãos um livro de receitas em forma de aplicativo. Nele será possível armazenar e buscar receitas de forma mais eficiênte ao utilizar filtros, por exemplo, de ingredientes e tempo de preparo, facilitando assim a rotina dos usuários.
 
 ### Processo – Buscar e Salvar Receitas
-![image](https://user-images.githubusercontent.com/86931711/224587176-f7278ab0-dab0-4522-a9e9-493dde9b2950.png)
+![image](https://user-images.githubusercontent.com/86931711/225600050-d0def1d5-eadf-4808-8be4-bf87222c8218.png)
 
 
 ## Indicadores de Desempenho
@@ -102,7 +102,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama abaixo representa a usabilidade da aplicação pelo usuário. Inicialmente é feito o acesso da aplicação onde o usuário deverá se cadastrar no site, em seguida ele tem as opções de buscar receitas com as características desejadas ou incluir suas próprias receitas para ficarem armazenadas.
 
-![image](https://user-images.githubusercontent.com/86931711/224191624-5b5e3a53-a12f-446d-871e-30ea1521c29e.png)
+![image](https://user-images.githubusercontent.com/86931711/225599340-4f13899f-07c4-404a-9de8-cafd7d6b38ff.png)
 
 # Matriz de Rastreabilidade
 
@@ -119,18 +119,20 @@ A técnica MoSCoW foi aplicada para priorização dos requsitos:
 
 Nesse sentido a ordem de importância das tarefas vai seguindo uma ordem decrescente, em que "Must Have" são as tarefas mais relevantes e as "Won’t Have" são tarefas que podem ficar para depois.
 
-| Importância |    Cod. EAP   |                     Nome                     |      Tipo     |                      Critérios de Aceitação                      |                                                  Descrição                                                  |
-|:-----------:|:-------------:|:--------------------------------------------:|:-------------:|:----------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|
-| Must have   | RF-001        | Criação de Perfil                            | Funcional     | Criação de usuário sendo feita com sucesso                       | O sistema deverá permitir a criação de um perfil de usuário associado ao e-mail do usuário                  |
-| Must have   | RF-002        | Exclusão e alteração dos Dados               | Funcional     | Exclusão e alteração de dados do usuário sendo feita com sucesso | O sistema deverá permitir a alteração e a exclusão dos dados e qualquer informação inserida pelos usuários. |
-| Must have   | RF-003 RF-004 | Inclusão, edição e exclusão de receitas      | Funcional     | Operações CRUD                                                   | O sistema deverá permitir a inserção, a alteração e a exclusão de receitas.                                 |
-| Should have  | RF-005        | Buscar Receitas                              | Funcional     | Buscar receitas utilizando filtros                               | O sistema deverá permitir a busca de receitas utilizando filtros.                                           |
-| Must have   | RNF-001       | Responsividade do Sistema em ambiente móveis | Não-Funcional | Responsividade do Sistema em ambiente móveis com sucesso         | O sistema deve ser responsivo para rodar em diversos dispositivos móveis.                                   |
-| Must have   | RNF-002       | Implementação de Framework                   | Não-Funcional | Implementação do React Native feita com sucesso                  | O sistema deve ser implementado utilizando React Native.                                                    |
-| Should have | RNF-003       | Uso de Banco do MySQL                        | Não-Funcional | Implementação do banco de dados em MySQL                         | A persistência dos dados será feita no banco MySQL.                                                         |
-| Could have  | RNF-004       | Tempo de Requisição                          | Não-Funcional | Tempo de Requisição deve atender á descrição                     | O sistema deve processar requisições do usuário em no máximo 11 segundos.                                   |
+| Importância | Cod. EAP |                     Nome                     |      Tipo     |                      Critérios de Aceitação                      |                                                     Descrição                                                     |
+|:-----------:|:--------:|:--------------------------------------------:|:-------------:|:----------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
+| Must have   | RF-001   | Criação de Perfil                            | Funcional     | Criação de usuário sendo feita com sucesso                       | O sistema deverá permitir a criação de um perfil de usuário associado ao e-mail do usuário                        |
+| Must have   | RF-002   | Exclusão e alteração dos Dados               | Funcional     | Exclusão e alteração de dados do usuário sendo feita com sucesso | O sistema deverá permitir a alteração e a exclusão dos dados e qualquer informação inserida pelos usuários.       |
+| Must have   | RF-003   | Inclusão de receitas                         | Funcional     | Operações CRUD                                                   | O sistema deverá permitir a inserção de novas receitas.                                                           |
+| Should have | RF-004   |  Edição e exclusão de receitas               | Funcional     | Operações CRUD                                                   | O sistema deverá permitir a alteração e a exclusão de receitas.                                                   |
+| Must have   | RF-005   | Buscar Receitas                              | Funcional     | Buscar receitas utilizando filtros                               | O sistema deverá permitir a busca de receitas utilizando filtros.                                                 |
+| Could have  | RF-005   | Salvar receitas escolhidas.                  | Funcional     | Salvar receitas encontradas durante as buscas                    | O sistema deverá permitir que o usuário salve as receitas que gostou para acessar com facilidade quando precisar. |
+| Must have   | RNF-001  | Responsividade do Sistema em ambiente móveis | Não-Funcional | Responsividade do Sistema em ambiente móveis com sucesso         | O sistema deve ser responsivo para rodar em diversos dispositivos móveis.                                         |
+| Must have   | RNF-002  | Implementação de Framework                   | Não-Funcional | Implementação do React Native feita com sucesso                  | O sistema deve ser implementado utilizando React Native.                                                          |
+| Should have | RNF-003  | Uso de Banco do MySQL                        | Não-Funcional | Implementação do banco de dados em MySQL                         | A persistência dos dados será feita no banco MySQL.                                                               |
+| Could have  | RNF-004  | Tempo de Requisição                          | Não-Funcional | Tempo de Requisição deve atender á descrição                     | O sistema deve processar requisições do usuário em no máximo 11 segundos.                                         |
 
-![image](https://user-images.githubusercontent.com/86931711/224591952-81bc407a-6a6a-495c-b1f3-b0ffb9f1d801.png)
+![image](https://user-images.githubusercontent.com/86931711/225599107-35533e8a-7333-4dba-a747-f6aa65756636.png)
 
 # Gerenciamento de Projeto
 
