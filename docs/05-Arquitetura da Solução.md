@@ -26,8 +26,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql e NoSQL (MongoDB) contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
-
+[Link contendo os scripts de criação das tabelas do banco de dados relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-infra-t1-time4-buscareceitas/tree/main/src).
 
 ## Tecnologias Utilizadas
 
@@ -101,7 +100,7 @@ Com base nessas características e subcaracterísticas segue abaixo as que foram
 **Eficiência** :
 
 - Tempo: *Mínimo tempo de resposta? Sim e Não. 
--
+
 - Máxima velocidade de execução? Sim e Não*
 
 - Recursos utilizados: *Mínimo uso de recursos para o mesmo resultado? Sim e Não*
