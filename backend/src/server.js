@@ -6,23 +6,19 @@ const socketio = require('socket.io');
 const http = require('http');
 const sqlite3 = require('sqlite3').verbose();
 const routes = require('./routes');
+const fs = require("fs")
 
 const app = express();
 const server = http.Server(app);
 const io = socketio(server);
-const fs = require("fs")
+const dataSql = fs.readFileSync("./database/db.sql").toString();
 
 
 // Conexão com o banco de dados
 mongoURI = 'mongodb+srv://busca-receitas-user:BuscaReceitas%40123%21@busca-receitas-cluster.3vfmuec.mongodb.net/busca-receitas-cluster?retryWrites=true&w=majority';
 
-mongoose.connect(mongoURI, { useNewUrlParser: true })
-  .then(() => console.log("[server.mongoose.connect] - [ mongoDB connected]"))
-  .catch((err) => console.log(err));
+mongoose.connect(mongoURI, { useNewUrlParser: true }).then(() => console.log("[server.mongoose.connect] - [ mongoDB connected]")).catch((err) => console.log(err));
 
-
-
-const dataSql = fs.readFileSync("./database/db.sql").toString();
 
 // Setup the database connection
 let db = new sqlite3.Database('mydatabase', (err) => {
@@ -52,6 +48,14 @@ db.serialize(() => {
     }
   });
   db.run('COMMIT;');
+
+});
+
+db.close((err) => {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log('[server.sqlLite] - [ closing connection to the in-memory SQLite database]');
 });
 
 // db.serialize(() => {
@@ -65,12 +69,6 @@ db.serialize(() => {
 // });
 
 // // close the database connection
-// db.close((err) => {
-//   if (err) {
-//     return console.error(err.message);
-//   }
-//   console.log('Close the database connection.');
-// });
 
 
 // GET, POST, PUT, DELETE
