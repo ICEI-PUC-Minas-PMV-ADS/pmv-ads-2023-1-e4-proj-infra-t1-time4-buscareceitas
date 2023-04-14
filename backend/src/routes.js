@@ -10,6 +10,9 @@ const upload = multer(uploadConfig);
 
 // Endpoint de Criacao de Receita
 routes.post('/api/v1/recipe', RecipeController.store);
+
+routes.put('/api/v1/recipe/:id', RecipeController.update);
+
 routes.get('/api/v1/recipe', RecipeController.findAll);
 
 routes.post('/api/v1/sessions', SessionController.store);

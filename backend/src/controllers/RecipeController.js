@@ -28,7 +28,24 @@ module.exports = {
 
     // Retorna a receita
     return res.json(recipeFinded);
-  }
+  },
+
+
+  async update(req, res) {
+
+    const id  = req.params.id;
+    console.log(req.params, req.body)
+
+    const updatedRecipe  = req.body;
+
+    console.log(updatedRecipe)
+    // Busca no banco de dados se ja existe uma receita com os mesmo atributos
+    let recipeUpdated = await repository.update(id, updatedRecipe);
+
+    // Retorna a receita
+    return res.json(recipeUpdated);
+
+  } 
 
 
 };

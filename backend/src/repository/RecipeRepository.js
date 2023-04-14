@@ -50,7 +50,7 @@ module.exports = {
             if (err) {
               console.error(err.message);
             }
-            console.log(rows);
+            console.log(JSON.stringify(rows));
             await resolve(rows)
           });
         });
@@ -62,6 +62,45 @@ module.exports = {
       }
   })
 
+  },
+
+  async update(id, recipe) {
+    
+    const db = await this.instanceDatabase();
+
+    let sql = `UPDATE recipe SET titulo = '@param.titulo', ingredientes = '@param.ingredientes', modoPreparo = '@param.modoPreparo', categoria = '@param.categoria', informacoesAdicionais = '@param.informacoesAdicionais', usuarioNome = '@param.usuarioNome', usuarioEmail = '@param.usuarioEmail', tempoPreparo = '@param.tempoPreparo', rendimento = '@param.rendimento' WHERE id = @param.id`
+
+    sql = sql.replace('@param.titulo', recipe.titulo)
+    sql = sql.replace('@param.ingredientes', recipe.ingredientes)
+    sql = sql.replace('@param.modoPreparo', recipe.modoPreparo)
+    sql = sql.replace('@param.categoria', recipe.categoria)
+    sql = sql.replace('@param.informacoesAdicionais', recipe.informacoesAdicionais)
+    sql = sql.replace('@param.usuarioNome', recipe.usuarioNome)
+    sql = sql.replace('@param.usuarioEmail', recipe.usuarioEmail)
+    sql = sql.replace('@param.tempoPreparo', recipe.tempoPreparo)
+    sql = sql.replace('@param.rendimento', recipe.rendimento)
+    sql = sql.replace('@param.id', id)
+
+    console.log(sql);
+
+    return await new Promise((resolve, reject) => {
+      try {
+        db.serialize(async () => {
+          await db.run(sql, async (err, rows) => {
+            if (err) {
+              console.error(err.message);
+            }
+            console.log(rows);
+            await resolve(rows)
+          });
+        });
+      } catch (error) {
+          console.log(`Error With RUN ALL(): \r\n ${error}`)
+          reject();
+      }finally{
+        this.closeDatabase(db);
+      }
+    })
   }
 
 };
