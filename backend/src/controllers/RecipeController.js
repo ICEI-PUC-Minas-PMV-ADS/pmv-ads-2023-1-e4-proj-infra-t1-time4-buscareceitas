@@ -45,7 +45,18 @@ module.exports = {
     // Retorna a receita
     return res.json(recipeUpdated);
 
-  } 
+  },
+  
+  async delete(req, res) {
+
+    let id = req.params.id;
+
+    //Apagar o registro no banco de dados MongoDB
+    recipe[id] = null; //deletar item
+    return res.json(recipe[id]);
+    
+   }
+
 
 
 };
