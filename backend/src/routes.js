@@ -17,4 +17,6 @@ routes.get('/api/v1/recipe', RecipeController.findAll);
 
 routes.post('/api/v1/sessions', SessionController.store);
 
+routes.delete('/api/v1/recipe', RecipeController.delete);
+
 module.exports = routes;
