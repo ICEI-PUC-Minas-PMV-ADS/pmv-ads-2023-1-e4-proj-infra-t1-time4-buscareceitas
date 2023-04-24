@@ -26,7 +26,11 @@ module.exports = {
 
     if (params.titulo){
       sql = sql.concat(" AND titulo LIKE '%@param.titulo%' ").replace('@param.titulo', params.titulo)
-    }
+      }
+
+      if (params.id) {
+          sql = sql.concat(" AND id = '@param.id' ").replace('@param.id', params.id)
+      }
 
     return sql;
   },
@@ -101,6 +105,37 @@ module.exports = {
         this.closeDatabase(db);
       }
     })
-  }
+    },
+
+    async delete(id) {
+
+        const db = await this.instanceDatabase();
+
+        let sql = `DELETE FROM recipe WHERE  id = @param.id`
+        sql = sql.replace('@param.id', id)
+
+        console.log(sql);
+
+        return await new Promise((resolve, reject) => {
+            try {
+                db.serialize(async () => {
+                    db.run(sql, async (err) => {
+                        if (err) {
+                            console.error('Ops! Erro ao excluir receita: ' + err.message)
+                            reject(err)
+                        } else {
+                            console.log('Receita excluida com sucesso: ' + id)
+                            resolve(id)
+                        }
+                    });
+                });
+            } catch (err) {
+                console.log(`Erro ao excluir receita: \r\n ${err}`)
+                reject(err);
+            } finally {
+                this.closeDatabase(db);
+            }
+        })
+    }
 
 };
