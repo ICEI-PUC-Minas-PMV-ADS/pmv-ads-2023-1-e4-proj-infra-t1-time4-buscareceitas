@@ -36,7 +36,35 @@
       </nav>
 
 <!--Conteúdo Página -->
-    
+    div class="container mt-5">
+    <div class="row align-items-center">   
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="mb-3 mx-auto" style="width: 150px;">
+          <a class="navbar-brand" href="#">
+            <img src="/frontend/src/assets/logo.png" alt="logo" width="150" height="150">
+          </a>
+          <h2>Meu Perfil</h2>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Nome-cadastrado" placeholder="" autocomplete="off" disabled/>
+            <label for="name">Nome</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="inputEmail-cadastrado" placeholder="" disabled/>
+            <label for="inputEmail">E-mail</label>
+          </div>
+          <div class="form-floating mb-5">
+            <input type="password" class="form-control" id="show_hide_password" disabled/>
+            <label for="inputPassword">Senha</label>
+          </div>
+          <button class="btn btn-lg btn-success w-100 mb-5" type="submit" >Editar</button>
+          <button class= "btn btn-lg btn-danger w-100 mb-5" type="submit">Apagar Usuário</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 <!--Script --> 
