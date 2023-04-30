@@ -102,7 +102,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama abaixo representa a usabilidade da aplicação pelo usuário. Inicialmente é feito o acesso da aplicação onde o usuário deverá se cadastrar no site, em seguida ele tem as opções de buscar receitas com as características desejadas ou incluir suas próprias receitas para ficarem armazenadas.
 
-![image](https://user-images.githubusercontent.com/86931711/225599340-4f13899f-07c4-404a-9de8-cafd7d6b38ff.png)
+![image](receitas.drawio.png)
 
 # Matriz de Rastreabilidade
 
