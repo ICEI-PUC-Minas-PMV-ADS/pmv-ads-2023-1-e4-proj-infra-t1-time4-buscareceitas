@@ -1,0 +1,27 @@
+
+<!--Conteúdo Página -->
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <div class="mb-3 mx-auto" style="width: 150px;">
+                    <a class="navbar-brand" href="#">
+                        <img ngSrc="cat.jpg">
+                        <img class="images" src="assets/img/logo.png" width="150" height="150">
+                    </a>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="imputEmail" placeholder="E-mail" [(ngModel)]="model.email" type="text" name="email"  />
+                    <label for="imputEmail"  >E-mail</label>
+                </div>
+                <div class="form-floating mb-5">
+                    <input type="password" class="form-control" id="imputPassword" placeholder="Senha" [(ngModel)]="model.password" name="password"/>
+                    <label for="imputPassword" >Senha</label>
+                </div>
+                <button class="btn btn-lg btn-success w-100 mb-5" type="submit" (click)="realizeLogin()" >Entrar</button>
+                <p class="text-center">Não tem conta?<a [routerLink]="['/registro']"> Cadastre-se aqui.</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
