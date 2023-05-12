@@ -1,11 +1,11 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+Testes de funcionalidades e regras de negócios avaliam o funcionamento da ferramenta e sua aderência aos requisitos e especificações definidas na fase de planejamento do sistema. Testa-se, para cada componente, se o sistema responde corretamente às solicitações realizadas.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+O teste de usabilidade permite avaliar a qualidade da interface com o usuário do aplicativo, utilizando uma avaliação por observação. Por meio dele, são recolhidos dados sobre comportamento medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias no aplicativo, proporcionando uma melhor experiência ao usuário.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: 
+
+--Teste de unidade: testa um componente de forma isolada
+
+
