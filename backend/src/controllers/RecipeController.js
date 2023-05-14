@@ -5,16 +5,11 @@ module.exports = {
   async store(req, res) {
 
     // Capturando o Form do body da requisicao
-    const { recipeForm } = req.body;
+    const recipeForm = req.body;
 
-    // Busca no banco de dados se ja existe uma receita com os mesmo atributos
-    let recipe = await Recipe.findOne({ recipeForm });
+    recipe = service.store(recipeForm);
 
-    // Se nao existir, cria uma nova receita
-    if (!recipe) {
-      recipe = await Recipe.create({ recipe });
-    }
-
+    console.log(recipe)
     // Retorna a receita
     return res.json(recipe);
   },

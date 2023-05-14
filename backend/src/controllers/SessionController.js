@@ -29,6 +29,44 @@ module.exports = {
     
   },
 
+  async update(req, res) {
+
+    // Validação do Schema
+    const registerSchema = Joi.object({
+      id: Joi.string().min(2).required(),
+      name: Joi.string().min(2).required(),
+      email: Joi.string().min(2).required().email(),
+      password: Joi.string().min(3).required(),
+    });
+
+    const body = req.body;
+    const {error} = registerSchema.validate(body);
+
+
+    if(error){
+      return res.status(400).send(error.details[0].message);
+    }
+
+    try {
+      return res.status(202).send(await service.update(body));
+    }catch(err){
+      return res.status(400).send(err.message);
+    }
+    
+  },
+
+  async delete(req, res) {
+
+    const email = req.params.email;
+
+    try {
+      return res.status(202).send(await service.delete(email));
+    }catch(err){
+      return res.status(400).send(err.message);
+    }
+    
+  },
+
   async login(req, res) {
 
     const loginSchema = Joi.object({

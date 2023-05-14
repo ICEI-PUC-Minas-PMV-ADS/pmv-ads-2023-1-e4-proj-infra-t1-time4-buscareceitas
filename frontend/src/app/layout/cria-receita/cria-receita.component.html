@@ -1,0 +1,98 @@
+<!--Menu de navegação-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="images" src="assets/img/logo.png" width="150" height="150" [routerLink]="['/busca']">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+  
+        <li class="d-flex nav-item me-3">
+          <a class="nav-link" [routerLink]="['/busca']">
+            <h5>Buscar Receitas</h5>
+          </a>
+        </li>
+        <li class="d-flex nav-item me-3">
+          <a class="nav-link" [routerLink]="['/gerenciar-receitas']">
+            <h5>Minhas Receitas</h5>
+          </a>
+        </li>
+        <li class="d-flex nav-item me-3">
+          <a class="nav-link" [routerLink]="['/perfil']">
+            <h5>Meu Perfil</h5>
+          </a>
+        </li>
+      </div>
+    </div>
+  </nav>
+  
+  <!--Conteúdo Página -->
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="mb-3 mx-auto" style="width: 150px;">
+            <a class="navbar-brand" href="#">
+              <img class="images" src="assets/img/logo.png" width="150" height="150">
+            </a>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.titulo" type="ingredientes" class="form-control"  name="titulo"/>
+            <label for="inputPassword">Titulo da Receita</label>
+          </div>
+  
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.ingredientes" type="tempoPreparo" class="form-control" name="ingredientes"  />
+            <label for="tempoPreparo">Ingredientes ('Use virgulas como separador') </label>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.modoPreparo" type="type" class="form-control" name="modoPreparo" >
+            <label for="tipoComida">Modo de preparo</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.tempoPreparo" type="type" class="form-control" name="tempoPreparo" >
+            <label for="tipoComida">Tempo de preparo</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.categoria" type="type" class="form-control" name="categoria" >
+            <label for="tipoComida">Categoria</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.rendimento" type="type" class="form-control" name="rendimento" >
+            <label for="tipoComida">Rendimento</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.tipoComida" type="type" class="form-control" name="tipoComida" >
+            <label for="tipoComida">Tipo de Comida</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.link" type="type" class="form-control" name="link" >
+            <label for="tipoComida">Link da foto da receita</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input [(ngModel)]="model.informacoesAdicionais" type="type" class="form-control" name="informacoesAdicionais" >
+            <label for="tipoComida">Informacoes Adicionais</label>
+          </div>
+
+
+          <button type="button" class="btn btn-lg btn-success w-100 mb-5" (click)="createRecipe()" >Realizar Busca</button>
+  
+        </form>
+  
+      </div>
+  
+      <footer class="rodape" style="padding-top: 25px; padding-bottom: 5px; text-align: center;">
+        <p style="color: #00a651;"> © Copyright | Todos os direitos são reservados - O QUE TEM PRA HOJE? 2023 </p>
+      </footer>
+  
