@@ -19,13 +19,17 @@ module.exports = {
     }
 
     if (params.tempoPreparo)
-      sql = sql.concat(" AND tempoPreparo = '@param.tempoPreparo' ").replace('@param.tempoPreparo', params.tempoPreparo)
+      sql = sql.concat(" AND tempoPreparo <= @param.tempoPreparo ").replace('@param.tempoPreparo', Number(params.tempoPreparo))
 
     if (params.categoria)
       sql = sql.concat(" AND categoria = '@param.categoria' ").replace('@param.categoria', params.categoria)
 
     if (params.titulo) {
       sql = sql.concat(" AND titulo LIKE '%@param.titulo%' ").replace('@param.titulo', params.titulo)
+    }
+
+    if (params.email) {
+      sql = sql.concat(" AND usuarioEmail = '@param.email' ").replace('@param.email', params.email)
     }
 
     if (params.id) {
@@ -35,11 +39,51 @@ module.exports = {
     return sql;
   },
 
+  async store(recipe) {
+    const db = await this.instanceDatabase();
+
+    let sql = `INSERT INTO recipe (titulo, ingredientes, modoPreparo, categoria, informacoesAdicionais, usuarioNome, usuarioEmail, tempoPreparo, rendimento, link ) VALUES (  '@param.titulo', '@param.ingredientes', '@param.modoPreparo', '@param.categoria', '@param.informacoesAdicionais', '@param.usuarioNome', '@param.usuarioEmail', @param.tempoPreparo, '@param.rendimento', '@param.link'    ) `
+
+    console.log(recipe)
+    sql = sql.replace('@param.titulo', recipe.titulo)
+    sql = sql.replace('@param.ingredientes', recipe.ingredientes)
+    sql = sql.replace('@param.modoPreparo', recipe.modoPreparo)
+    sql = sql.replace('@param.categoria', recipe.categoria)
+    sql = sql.replace('@param.informacoesAdicionais', recipe.informacoesAdicionais)
+    sql = sql.replace('@param.usuarioNome', recipe.usuarioNome)
+    sql = sql.replace('@param.usuarioEmail', recipe.usuarioEmail)
+    sql = sql.replace('@param.tempoPreparo', recipe.tempoPreparo)
+    sql = sql.replace('@param.rendimento', recipe.rendimento)
+    sql = sql.replace('@param.link', recipe.link)
+
+    console.log(sql);
+
+    return await new Promise((resolve, reject) => {
+      try {
+        db.serialize(async () => {
+          await db.run(sql, async (err, rows) => {
+            if (err) {
+              console.error(err.message);
+            }
+            console.log(rows);
+            await resolve(rows)
+          });
+        });
+      } catch (error) {
+        console.log(`Error With RUN ALL(): \r\n ${error}`)
+        reject();
+      } finally {
+        this.closeDatabase(db);
+      }
+    })
+
+
+  },
   async findAll(params) {
 
     const db = await this.instanceDatabase();
 
-    let sql = "SELECT DISTINCT id, titulo, ingredientes, modoPreparo, categoria, informacoesAdicionais, usuarioNome, usuarioEmail, tempoPreparo, rendimento FROM recipe WHERE 1=1 "
+    let sql = "SELECT DISTINCT id, titulo, ingredientes, modoPreparo, categoria, informacoesAdicionais, usuarioNome, usuarioEmail, tempoPreparo, rendimento, link FROM recipe WHERE 1=1 "
 
     sql = this.buildFilter(params, sql);
 
@@ -66,6 +110,7 @@ module.exports = {
       }
     })
 
+    
   },
 
   async update(id, recipe) {

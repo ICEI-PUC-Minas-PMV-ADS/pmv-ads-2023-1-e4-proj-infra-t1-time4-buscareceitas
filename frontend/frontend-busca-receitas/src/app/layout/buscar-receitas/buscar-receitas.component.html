@@ -1,100 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O que tem pra hoje?</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="shortcut icon" href="../../../assets/favicon.ico">
-</head>
-<body>
+<!--Menu de navegação-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="images" src="assets/img/logo.png" width="150" height="150" [routerLink]="['/busca']">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
 
-    <!--Menu de navegação-->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="../../../assets/logo.png" alt="logo" width="150" height="150">
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/busca']">
+          <h5>Buscar Receitas</h5>
         </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-    
-            <li class="d-flex nav-item me-3">
-              <a class="nav-link" href="../03-BuscarReceitas/index.html"><h5>Buscar Receitas</h5></a>
-          </li>
-          <li class="d-flex nav-item me-3">
-              <a class="nav-link" href="../06-MinhasReceitas/index.html"><h5>Minhas Receitas</h5></a>
-          </li>
-          <li class="d-flex nav-item me-3">
-              <a class="nav-link" href="../05-MeuPerfil/index.html"><h5>Meu Perfil</h5></a>
-          </li>
-          </div>
-        </div>
-      </nav>
+      </li>
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/gerenciar-receitas']">
+          <h5>Minhas Receitas</h5>
+        </a>
+      </li>
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/perfil']">
+          <h5>Meu Perfil</h5>
+        </a>
+      </li>
+    </div>
+  </div>
+</nav>
 
-      <!--Conteúdo Página -->
-    <form>
-      <div class="container-fluid">                  
-        <div class="row">
-          
-          <div class="col-4 p-5">
-            <div class="dropdown">                  
-              <button class="btn btn-secondary dropdown-toggle w-50" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">                  
-                Filtro 1
-              </button>
-                <ul class="dropdown-menu w-50" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Opção 1 - Filtro 1</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 2 - Filtro 1</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 3 - Filtro 1</a></li>
-                </ul>
-              </div> 
-          </div>
-          
-          <div class="col-4 p-5">
-            <div class="dropdown">                  
-              <button class="btn btn-secondary dropdown-toggle w-50" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">                  
-                Filtro 2
-              </button>
-                <ul class="dropdown-menu w-50" aria-labelledby="dropdownMenuButton2">
-                  <li><a class="dropdown-item" href="#">Opção 1 - Filtro 2</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 2 - Filtro 3</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 3 - Filtro 2</a></li>
-                </ul>
-              </div> 
-          </div>          
-          
-          <div class="col-4 p-5">
-            <div class="dropdown">                  
-              <button class="btn btn-secondary dropdown-toggle w-50" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">                  
-                Filtro 3
-              </button>
-                <ul class="dropdown-menu w-50" aria-labelledby="dropdownMenuButton3">
-                  <li><a class="dropdown-item" href="#">Opção 1 - Filtro 3</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 2 - Filtro 3</a></li>
-                  <li><a class="dropdown-item" href="#">Opção 3 - Filtro 4</a></li>
-                </ul>
-              </div> 
-          </div>                                      
+<!--Conteúdo Página -->
+<div class="container mt-5">
+  <div class="row align-items-center">
+    <div class="col-md-10 mx-auto col-lg-5">
+      <form class="p-4 p-md-5 border rounded-3 bg-light">
+        <div class="mb-3 mx-auto" style="width: 150px;">
+          <a class="navbar-brand" href="#">
+            <img class="images" src="assets/img/logo.png" width="150" height="150">
+          </a>
         </div>
-        
-        <div class="row">
 
-          <div class="col-4 p-5"></div>
-          
-          <div class="col-4 p-5">
-            <button class="btn btn-lg btn-success w-50 mb-5" type="submit">Buscar</button>
-          </div>
-          
-          <div class="col-4 p-5"></div>
-        
+        <div class="form-floating mb-3">
+          <input [(ngModel)]="model.ingredientes" type="ingredientes" class="form-control"  name="ingredientes"/>
+          <label for="inputPassword">Ingredientes da sua geladeira</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input [(ngModel)]="model.tempoPreparo" type="tempoPreparo" class="form-control" name="tempoPreparo"  />
+          <label for="tempoPreparo">Tempo de Preparo</label>
         </div>
         
-      </div>
-    </form>
-     <!--Script --> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-</body>
-</html>
+        <div class="form-floating mb-3">
+          <input [(ngModel)]="model.tipoComida" type="type" class="form-control" name="tipoComida" >
+          <label for="tipoComida">Tipo de Comida</label>
+        </div>
+        <button type="button" class="btn btn-lg btn-success w-100 mb-5" (click)="realizeSearch()" >Realizar Busca</button>
+
+      </form>
+
+    </div>
+
+    <footer class="rodape" style="padding-top: 25px; padding-bottom: 5px; text-align: center;">
+      <p style="color: #00a651;"> © Copyright | Todos os direitos são reservados - O QUE TEM PRA HOJE? 2023 </p>
+    </footer>

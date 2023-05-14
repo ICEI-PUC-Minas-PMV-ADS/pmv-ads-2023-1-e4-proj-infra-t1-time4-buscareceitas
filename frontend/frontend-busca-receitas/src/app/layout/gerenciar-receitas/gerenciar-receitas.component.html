@@ -1,1 +1,83 @@
-<p>gerenciar-receitas works!</p>
+<!--Menu de navegação-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="images" src="assets/img/logo.png" width="150" height="150" [routerLink]="['/busca']">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/busca']">
+                    <h5>Buscar Receitas</h5>
+                </a>
+            </li>
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/gerenciar-receitas']">
+                    <h5>Minhas Receitas</h5>
+                </a>
+            </li>
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/perfil']">
+                    <h5>Meu Perfil</h5>
+                </a>
+            </li>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col align-self-end">
+            <button type="button" class="btn btn-sm btn-info btnExport h-75" (click)="createRecipe()">
+                <fa-icon [icon]="faStickyNote"></fa-icon>
+                Criar Receita
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="card mt-3" *ngIf="!emptyRecord ">
+
+    <table class="table-responsive table table-striped table-bordered table-hover" id="grid">
+        <thead>
+            <tr>
+                <th *ngFor="let header of tableHeader" class="text-nowrap">
+                    <b>{{ header }}</b>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of list">
+                <td class="text-nowrap align-middle">{{item.id}}</td>
+                <td class="text-nowrap align-middle">{{item.titulo}}</td>
+                <td class="text-nowrap align-middle">{{item.ingredientes}}</td>
+                <td class="text-nowrap align-middle">{{item.modoPreparo}}</td>
+                <td class="text-nowrap align-middle">{{item.categoria}}</td>
+                <td class="text-nowrap align-middle">{{item.informacoesAdicionais}}</td>
+                <td class="text-nowrap align-middle">{{item.tempoPreparo}}</td>
+                <td class="text-nowrap align-middle">{{item.rendimento}}</td>
+                <td class="text-nowrap align-middle">{{item.link}}</td>
+                <td class="text-nowrap align-middle" (click)="editarReceita(item)"> Editar Receita </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="card mt-2" *ngIf="emptyRecord">
+    <div class="card-body">
+        <div class="align-items-middle justify-content-center flex-column p-5 no-result-text" no-result-text>
+            <p class="d-flex justify-content-center">{{ !emptyRecord? 'REALIZE A PESQUISA PARA OBTER INFORMAÇÕES':
+                'NENHUM RESULTADO ENCONTRADO'}}</p>
+            <small class="d-flex justify-content-center">
+                {{ 'Nenhuma receita associada a esse usuario. Gostaria de adicionar uma?'}}
+            </small>
+        </div>
+    </div>
+</div>
+

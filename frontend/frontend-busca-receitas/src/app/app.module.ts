@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,18 +7,16 @@ import { LoginComponent } from './layout/login/login.component';
 import { GerenciarReceitasComponent } from './layout/gerenciar-receitas/gerenciar-receitas.component';
 import { BuscarReceitasComponent } from './layout/buscar-receitas/buscar-receitas.component';
 import { MeuPerfilComponent } from './layout/meu-perfil/meu-perfil.component';
-import { MinhasReceitasComponent } from './layout/minhas-receitas/minhas-receitas.component';
 import { RegistroComponent } from './layout/registro/registro.component';
 import { ResultadosBuscaComponent } from './layout/resultados-busca/resultados-busca.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule, ɵHttpInterceptingHandler } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
-
-import { LoaderComponent } from './components/loader/loader.component';
-import { LoaderInterceptor } from './components/loader/loader.interceptor';
-import { LoaderService } from './components/loader/loader.service';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { CriaReceitaComponent } from './layout/cria-receita/cria-receita.component';
+import { AtualizaReceitaComponent } from './layout/atualiza-receita/atualiza-receita.component';
 
 @NgModule({
   declarations: [
@@ -27,9 +25,10 @@ import { LoaderService } from './components/loader/loader.service';
     GerenciarReceitasComponent,
     BuscarReceitasComponent,
     MeuPerfilComponent,
-    MinhasReceitasComponent,
     RegistroComponent,
-    ResultadosBuscaComponent
+    ResultadosBuscaComponent,
+    CriaReceitaComponent,
+    AtualizaReceitaComponent
   ],
   imports: [
     BrowserModule,
@@ -43,14 +42,13 @@ import { LoaderService } from './components/loader/loader.service';
     FormsModule
   ],
   providers: [
-    LoaderService,
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: LoaderInterceptor,
-      multi: true
-    },
+
 
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA,
+    NO_ERRORS_SCHEMA
+  ]
 })
 export class AppModule { }

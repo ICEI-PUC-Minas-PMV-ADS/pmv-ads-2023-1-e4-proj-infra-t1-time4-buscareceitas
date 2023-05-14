@@ -1,1 +1,79 @@
-<p>resultados-busca works!</p>
+<!--Menu de navegação-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="images" src="assets/img/logo.png" width="150" height="150">
+  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/busca']">
+          <h5>Buscar Receitas</h5>
+        </a>
+      </li>
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/gerenciar-receitas']">
+          <h5>Minhas Receitas</h5>
+        </a>
+      </li>
+      <li class="d-flex nav-item me-3">
+        <a class="nav-link" [routerLink]="['/perfil']">
+          <h5>Meu Perfil</h5>
+        </a>
+      </li>
+    </div>
+  </div>
+</nav>
+
+<!--Conteúdo Página -->
+<div class="container-fluid" *ngIf="list.length > 0">
+
+<div class="card mb-3" *ngFor="let item of list">
+        <div class="row g-0">
+            <!-- coluna da imagem -->      
+            <div class="col-4">
+              <img src="{{item.link}}" class="img-fluid rounded-start"> 
+            </div>
+          
+            <!-- coluna do texto -->   
+            <div class="col-8">
+              <div class="card-body">
+                <h3 class="card-title">{{item.titulo}} por {{item.usuarioNome}} </h3>
+                <h4 class="card-title">{{item.categoria}}</h4>
+                <p class="card-text">
+                    {{item.ingredientes}}
+                </p>
+                <p class="card-text">
+                   Tempo de preparo de {{item.tempoPreparo}} minutos e rende {{item.rendimento}}
+                </p>
+                <p class="card-text">
+                    {{item.modoPreparo}}
+                </p> 
+                <p class="card-text">
+                    {{item.informacoesAdicionais}}
+                </p>                    
+              </div>
+            </div>      
+          </div>
+  
+</div>  
+
+<div class="row">
+
+<div class="col-4 p-5"></div>
+
+<div class="col-4 p-5">
+  <button class="btn btn-lg btn-success w-50 mb-5" type="submit" [routerLink]="['/busca']" >Nova Busca</button>
+</div>
+
+<div class="col-4 p-5"></div>
+
+</div>
+
+
+</div>    

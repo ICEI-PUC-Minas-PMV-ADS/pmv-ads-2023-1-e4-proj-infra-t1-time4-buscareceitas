@@ -1,1 +1,70 @@
-<p>meu-perfil works!</p>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="images" src="assets/img/logo.png" width="150" height="150" [routerLink]="['/busca']">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/busca']">
+                    <h5>Buscar Receitas</h5>
+                </a>
+            </li>
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/gerenciar-receitas']">
+                    <h5>Minhas Receitas</h5>
+                </a>
+            </li>
+            <li class="d-flex nav-item me-3">
+                <a class="nav-link" [routerLink]="['/perfil']">
+                    <h5>Meu Perfil</h5>
+                </a>
+            </li>
+        </div>
+    </div>
+</nav>
+
+<!--Conteúdo Página -->
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <div class="mb-3 mx-auto" style="width: 150px;">
+                    <h2 style="display: inline;">Meu Perfil</h2>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="Nome-cadastrado" placeholder="" autocomplete="off"
+                        [(ngModel)]="user.name" name="name">
+                    <label for="name">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="inputEmail-cadastrado" placeholder=""
+                        [(ngModel)]="user.email" name="email" />
+                    <label for="inputEmail">E-mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="show_hide_password" [(ngModel)]="user.password"
+                        name="password" />
+                    <label for="inputPassword">Senha</label>
+                </div>
+                <!-- Botão que irá abrir o modal -->
+                <button type="button" class="btn btn-lg btn-success w-100 mb-5" data-bs-toggle="modal"
+                    (click)="realizeEditar()">Editar</button>
+                <button type="button" class="btn btn-lg btn-danger w-100 mb-5" value="Apagar Usuário"
+                    (click)="realizeApagar()">Apagar Usuário</button>
+            </form>
+
+        </div>
+
+
+
+        <footer class="rodape" style="padding-top: 25px; padding-bottom: 5px; text-align: center;">
+            <p style="color: #00a651;"> © Copyright | Todos os direitos são reservados - O QUE TEM PRA HOJE? 2023 </p>
+        </footer>
+
+        <!--Script -->
