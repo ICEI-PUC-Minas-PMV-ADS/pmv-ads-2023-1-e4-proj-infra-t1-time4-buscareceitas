@@ -6,6 +6,8 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 
 O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: 
 
---Teste de unidade: testa um componente de forma isolada
+--Teste de unidade: testa um componente de forma isolada. A seguir, os testes utilizados no Frontend e Backend:
+    . Frontend: Karma - um teste runner feito para o AngularJs
+    . Backend: Jest - um framework de teste unitário de código aberto em JavaScript.
 
 
