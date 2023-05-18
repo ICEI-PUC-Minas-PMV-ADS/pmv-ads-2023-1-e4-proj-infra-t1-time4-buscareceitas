@@ -6,10 +6,6 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+>Instruções de utilização
+
+Para acessar a aplicação desenvolvida basta executar o comando npm install e npm run dev na pasta Backend, também executar o comando npm install e npm run start na pasta Frontend. Abrir um navegador e digitar o localhost: http://localhost:4200/login para acessar a tela incial e interagir com as outras.oint.com/json/index.htm)
