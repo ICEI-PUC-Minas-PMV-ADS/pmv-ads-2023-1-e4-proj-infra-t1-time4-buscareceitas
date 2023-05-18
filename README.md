@@ -25,7 +25,7 @@ O que tem pra hoje? é um aplicativo que apresenta aos seus usuários receitas d
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a aplicação desenvolvida basta executar o comando npm install e npm run dev na pasta Backend, também executar o comando npm install e npm run start na pasta Frontend. Abrir um navegador e digitar o localhost: http://localhost:4200/login para acessar a tela incial e interagir com as outras. 
 
 # Documentação
 
