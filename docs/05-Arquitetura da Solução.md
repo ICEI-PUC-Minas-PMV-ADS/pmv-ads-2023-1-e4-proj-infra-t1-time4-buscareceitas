@@ -32,13 +32,14 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Neste projeto, utilizaremos para aplicação:
 
-- Frontend: o [React](https://pt-br.reactjs.org/) / [React Native](https://reactnative.dev/), uma biblioteca escrita utilizando a linguagem JavaScript para criar interfaces componentizadas e reutilizáveis.  
+- Frontend: o [Angular](https://angular.io/docs) / [React Native](https://reactnative.dev/), uma biblioteca escrita utilizando a linguagem JavaScript para criar interfaces componentizadas e reutilizáveis.  
 
 - o [Expo](https://expo.dev/) para, principalmente, construir (_buildar_) a aplicação para diferentes dispositivos Android e IOS, sem a necessidade de utilizar ambientes de desenvolvimento especializados, como o Android Studio e o XCode. 
 
 - Backend: [NodeJS](https://nodejs.org/en/) foi escolhido como tecnologia para o desenvolvimento no lado do backend, devido o uso de dados em JSON permitem que o Node.js funcione sem a incompatibilidade de impedância e a conversão de dados.
 
 - o [MongoDB](https://www.mongodb.com/pt-br) foi escolhido como BD não-relacional, tendo como vantagens como ser opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL. 
+- Dblite
 
 - Para testar a aplicação de forma nativa, utilizamos o Expo Go direto dos celulares que o grupo tem em mãos.
 
