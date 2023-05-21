@@ -12,6 +12,8 @@ HOCH, Patrícia Adriani. A obsolescência programada e os impactos ambientais ca
 
 REINEHR, Sheila. **Engenharia de Requisitos.** Porto Algre: Grupo A, 2020. *E-book*.
 
+SANTOS, Flávio. **Economia da influência**: transforme a narrativa da sua marca em seu maior ativo e adapte seu negócio parab ter resultados escaláveis. São Paulo: Gente, 2022.
+
 TONI, Deonir de; LARENTIS, Fabiano; MATTIA, Adilene. Consumo consciente, valor e lealdade em produtos ecologicamente corretos. **Revista de Administração FACES Journal**, v. 11, n. 3, p. 136-156, 2012. 
 
 WACKERNAGEL, Mathis; GALLI, Alessandro. Recursos de um planeta finito. **Desafios do Desenvolvimento**, Brasília: IPEA, v.6, n.50, 2009. 
