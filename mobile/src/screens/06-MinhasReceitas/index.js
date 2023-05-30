@@ -1,9 +1,12 @@
 import { ScrollView, View, FlatList } from "react-native";
+import { useNavigation, Alert } from "@react-navigation/native";
 import Nav from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import { useState, useEffect } from "react";
 import List from "../../Components/List";
 import { styles } from "./styles";
+import { DatabaseConnection } from "../../Database/connection";
+const db = DatabaseConnection.getConnection();
 let receitasList = [];
 
 const MinhasReceitas = () => {
@@ -12,14 +15,14 @@ const MinhasReceitas = () => {
   useEffect(() => {
     db.transaction(function (txn) {
       txn.executeSql(
-        "SELECT name FROM sqlite_master WHERE type='table' AND name='car_auto_app'",
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='car_buscareceitas'",
         [],
         function (tx, res) {
           console.log("item (useEffect):", res.rows.length);
           if (res.rows.length == 0) {
-            txn.executeSql("DROP TABLE IF EXISTS car_auto_app", []);
+            txn.executeSql("DROP TABLE IF EXISTS car_buscareceitas", []);
             txn.executeSql(
-              "CREATE TABLE IF NOT EXISTS car_auto_app(id INTEGER PRIMARY KEY AUTOINCREMENT, licencePlate VARCHAR(255), brand VARCHAR(255), model VARCHAR(255), version VARCHAR(255), year VARCHAR(255) )",
+              "CREATE TABLE IF NOT EXISTS Receitas_buscareceitas(id INTEGER PRIMARY KEY AUTOINCREMENT, xxxxxxxxxxxx )",
               []
             );
           }
@@ -32,9 +35,9 @@ const MinhasReceitas = () => {
         let len = results.rows.length;
         if (len > 0) {
           alert("Receitas carregadas com sucesso!");
-          this.carList = results.rows;
-          console.log(this.carList._array);
-          setFlatListItems(this.carList._array);
+          this.receitaList = results.rows;
+          console.log(this.receitaList._array);
+          setFlatListItems(this.receitaList._array);
         } else {
           alert("Receitas não encontradas!");
         }
@@ -47,7 +50,7 @@ const MinhasReceitas = () => {
       <View>
         <List
           text={item.model}
-          onPress={() => navigation.navigate("ModalMaintenance")}
+          onPress={() => navigation.navigate("GerenciarReceitas")}
         />
       </View>
     );
