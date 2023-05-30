@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { View, ScrollView, TouchableOpacity, Text } from "react-native";
 import { TextInput, Button } from "react-native-paper";
-import Logo from "../../components/Logo/indexS";
+import Logo from "../../components/Logo/index";
 import Statusbar from "../../components/StatusBar";
 import DefaultButton from "../../components/Buttons/Default";
 import { styles } from "./styles";
