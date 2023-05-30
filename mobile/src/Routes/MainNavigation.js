@@ -1,8 +1,8 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Login from "../Screens/Login/index";
-import Cadastro from "../Screens/Cadastro/index";
-import MeuPerfil from "../Screens/MeuPerfil/index";
-import MinhasReceitas from "../Screens/MinhasReceitas/index";
+import Login from "../screens/01-Login";
+import Cadastro from "../screens/02-Cadastrar";
+import MeuPerfil from "../screens/05-MeuPerfil";
+import MinhasReceitas from "../screens/06-MinhasReceitas";
 
 
 const Stack = createNativeStackNavigator();
