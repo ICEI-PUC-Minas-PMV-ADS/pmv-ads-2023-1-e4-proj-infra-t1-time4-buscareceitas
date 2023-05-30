@@ -25,7 +25,7 @@ const Login = () => {
           if (res.rows.length == 0) {
             txn.executeSql("DROP TABLE IF EXISTS user_buscareceitas", []);
             txn.executeSql(
-              "CREATE TABLE IF NOT EXISTS user_auto_app(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255))",
+              "CREATE TABLE IF NOT EXISTS user_buscareceitas(user_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), email VARCHAR(255), password VARCHAR(255), confirmed_password VARCHAR(255))",
               []
             );
           }
