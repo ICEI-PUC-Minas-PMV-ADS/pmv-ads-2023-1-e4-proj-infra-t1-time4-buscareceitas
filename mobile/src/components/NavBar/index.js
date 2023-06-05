@@ -1,7 +1,7 @@
 import { Image, SafeAreaView, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
-import arrow from "../../assets/logo.png";
-import logo from "../../assets/logo.png";
+import arrow from "../../../assets/icons/Arrow.png";
+import logo from "../../../assets/images/logo.png";
 
 const Nav = ({ onPress }) => {
   return (
