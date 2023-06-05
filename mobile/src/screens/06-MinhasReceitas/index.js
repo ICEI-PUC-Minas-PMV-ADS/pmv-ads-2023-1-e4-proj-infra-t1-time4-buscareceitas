@@ -1,9 +1,9 @@
 import { ScrollView, View, FlatList } from "react-native";
 import { useNavigation, Alert } from "@react-navigation/native";
-import NavBar from "../../Components/NavBar/index";
-import DefaultButton from "../../Components/Buttons/Default";
+import NavBar from "../../components/NavBar/index";
+import DefaultButton from "../../components/Buttons/Default";
 import { useState, useEffect } from "react";
-import List from "../../Components/List";
+import List from "../../components/List";
 import { styles } from "./styles";
 import { DatabaseConnection } from "../../Database/connection";
 const db = DatabaseConnection.getConnection();
