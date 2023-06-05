@@ -1,6 +1,6 @@
 import { ScrollView, View, FlatList } from "react-native";
 import { useNavigation, Alert } from "@react-navigation/native";
-import Nav from "../../Components/NavBar/index";
+import NavBar from "../../Components/NavBar/index";
 import DefaultButton from "../../Components/Buttons/Default";
 import { useState, useEffect } from "react";
 import List from "../../Components/List";
