@@ -1,19 +1,16 @@
-import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
+import { View } from "react-native";
+import MinhasReceitas2 from "./src/Screens/MinhasReceitas2/index";
+import Login from "./src/Screens/Login";
+import Cadastro from "./src/Screens/Cadastro";
+import MeuPerfil from "./src/Screens/MeuPerfil";
 
-import Main from "./src/Routes/MainNavigation";
-
-const MyTheme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    background: "#ffffff",
-  },
-};
 
 export default function App() {
   return (
-    <NavigationContainer theme={MyTheme}>
-      <Main />
-    </NavigationContainer>
+    <View>
+      {/*Para visualizar as telas desenvolvidas, basta trocar o nome a seguir. Ex: <Login />, <Home />, etc. e rodar o comando npm start para abrir o QR code do Expo Go*/}
+      <Login />
+    </View>
   );
 }
+
