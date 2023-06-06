@@ -4,7 +4,7 @@
     "slug": "BuscaReceitas",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/images/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "resizeMode": "contain",
@@ -22,12 +22,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
+        "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#182E3A"
       }
     },
     "web": {
-      "favicon": "./assets/logo.png"
+      "favicon": "./assets/images/logo.png"
     }
   }
 }
