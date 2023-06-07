@@ -51,7 +51,7 @@ const Login = () => {
           <Text> Não tem conta? </Text>
           <Text
             style={styles.registerText}
-            onPress={() => navigation.navigate("Cadastrar")}
+            onPress={() => navigation.navigate("Cadastro")}
           >
           Cadastre-se aqui!</Text>
         </TouchableOpacity>
