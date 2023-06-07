@@ -1,7 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "../Screens/Login/index";
 import Cadastro from "../Screens/Cadastro/index";
-import MeuPerfil from "../Screens/MeuPerfil/index":
+import MeuPerfil from "../Screens/MeuPerfil/index";
 import MinhasReceitas from "../Screens/MinhasReceitas/index";
 
 
