@@ -4,7 +4,8 @@ import Login from "./src/Screens/Login";
 import Cadastro from "./src/Screens/Cadastro";
 import MeuPerfil from "./src/Screens/MeuPerfil";
 import GerenciarReceitas from "./src/Screens/GerenciarReceitas";
-
+import BuscarReceitas from "./src/Screens/BuscarReceitas";
+import ResultadoBusca from "./src/Screens/ResultadoBusca";
 
 export default function App() {
   return (
