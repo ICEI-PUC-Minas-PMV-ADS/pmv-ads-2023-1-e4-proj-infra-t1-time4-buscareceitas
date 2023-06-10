@@ -3,7 +3,8 @@ import Login from "../Screens/Login/index";
 import Cadastro from "../Screens/Cadastro/index";
 import MeuPerfil from "../Screens/MeuPerfil/index";
 import MinhasReceitas from "../Screens/MinhasReceitas/index";
-
+import BuscaReceita from "../Screens/BuscaReceita/index";
+import AdicionarReceitas from "../Screens/AdicionarReceitas/index";
 
 const Stack = createNativeStackNavigator();
 
@@ -35,6 +36,14 @@ const Main = () => {
       />
 
       <Stack.Screen
+        name="BuscaReceita"
+        component={BuscaReceita}
+        options={{
+          header: () => null,
+        }}
+      />
+
+      <Stack.Screen
         name="MinhasReceitas"
         component={MinhasReceitas}
         options={{
@@ -42,7 +51,14 @@ const Main = () => {
         }}
       />
 
-        </Stack.Navigator>
+      <Stack.Screen
+        name="AdicionarReceitas"
+        component={AdicionarReceitas}
+        options={{
+          header: () => null,
+        }}
+      />
+    </Stack.Navigator>
   );
 };
 

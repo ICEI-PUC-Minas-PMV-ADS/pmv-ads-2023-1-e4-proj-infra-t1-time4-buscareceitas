@@ -42,7 +42,7 @@ module.exports = {
   async store(recipe) {
     const db = await this.instanceDatabase();
 
-    let sql = `INSERT INTO recipe (titulo, ingredientes, modoPreparo, categoria, informacoesAdicionais, usuarioNome, usuarioEmail, tempoPreparo, rendimento, link ) VALUES (  '@param.titulo', '@param.ingredientes', '@param.modoPreparo', '@param.categoria', '@param.informacoesAdicionais', '@param.usuarioNome', '@param.usuarioEmail', @param.tempoPreparo, '@param.rendimento', '@param.link'    ) `
+    let sql = `INSERT INTO recipe (titulo, ingredientes, modoPreparo, categoria, informacoesAdicionais, usuarioNome, usuarioEmail, tempoPreparo, rendimento, link ) VALUES (  '@param.titulo', '@param.ingredientes', '@param.modoPreparo', '@param.categoria', '@param.informacoesAdicionais', '@param.usuarioNome', '@param.usuarioEmail', '@param.tempoPreparo', '@param.rendimento', '@param.link'    ) `
 
     console.log(recipe)
     sql = sql.replace('@param.titulo', recipe.titulo)
