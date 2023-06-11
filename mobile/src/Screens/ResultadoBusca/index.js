@@ -5,7 +5,7 @@ import DefaultButton from "../../Components/Buttons/Default";
 import Logo from "../../Components/Logo/index";
 import Statusbar from "../../Components/StatusBar";
 import NavBar from "../../Components/NavBar";
-import { styles } from "./styles";
+import { styles } from "./style";
 
 const ResultadoBusca = () => {     
 
