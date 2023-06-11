@@ -9,5 +9,7 @@ O planejamento dos testes de usabilidade a serem realizados com usuários são d
 --Teste de unidade: testa um componente de forma isolada. A seguir, os testes utilizados no Frontend e Backend:
     . Frontend: Karma - um teste runner feito para o AngularJs
     . Backend: Jest - um framework de teste unitário de código aberto em JavaScript.
+    
+-- Teste de integração: tem a finalidade de integrar unidades e componentes de software que foram testados isoladamente. Existem testes de integração big bang, top down, bottom up.
 
 
