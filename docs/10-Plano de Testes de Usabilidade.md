@@ -10,6 +10,7 @@ O planejamento dos testes de usabilidade a serem realizados com usuários são d
     . Frontend: Karma - um teste runner feito para o AngularJs
     . Backend: Jest - um framework de teste unitário de código aberto em JavaScript.
     
--- Teste de integração: tem a finalidade de integrar unidades e componentes de software que foram testados isoladamente. Existem testes de integração big bang, top down, bottom up.
+-- Teste de integração: tem a finalidade de integrar unidades e componentes de software que foram testados isoladamente. Existem testes de integração big bang, top down, bottom up. O teste utilizado foi:
+    . Big Bang: um teste não incremental em que todos componentes são combinados de uma vez.
 
 
