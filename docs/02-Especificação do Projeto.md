@@ -17,7 +17,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu, Elena, Usuário do sistema  | Buscar por receitas que não utilizem alimentos com glúten        | Para me alimentar bem enquanto viajo a trabalho |
 |Eu, Isabella, Usuário do sistema  | Buscar por receitas que utilizem os alimentos que já tenho em casa    | Para ganhar tempo para realizar minhas demais tarefas |
 |Eu, John, Usuário do sistema  | Buscar novas receitas    | Para manter-me atualizado no mundo da gastronomia |
-|Eu, John, Usuário do sistema  | Salvar as receitas que gostei | Para manter um histórico e acessar facilmente quando necessário |
+|Eu, John, Usuário do sistema  | Adicionar as receitas | Para manter um registro de minhas receitas preferidas e acessar facilmente quando necessário |
 
 ## Modelagem do Processo de Negócio 
 
