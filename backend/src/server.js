@@ -77,7 +77,7 @@ db.close((err) => {
 // req.params = Acessar route params (para edição, delete)
 // req.body = Acessar corpo da requisição (para criação, edição)
 
-const port = 3000;
+const port = 80;
 const appVersion = "v1";
 const startDate = new Date();
 
