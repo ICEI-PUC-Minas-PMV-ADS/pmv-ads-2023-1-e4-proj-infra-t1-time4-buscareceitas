@@ -8,6 +8,6 @@ RUN npm ci --omit=dev
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD [ "node","--max_old_space_size=16384", "./src/server.js" ]
