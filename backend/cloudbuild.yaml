@@ -15,4 +15,4 @@ steps:
     - '--service-account=${_SERVICE_ACCOUNT_EMAIL}'
     - '--image=gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:$SHORT_SHA'
 options:
-  logging: GCS_ONLY
+  logging: CLOUD_LOGGING_ONLY
