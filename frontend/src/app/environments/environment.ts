@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseApi: 'http://localhost:3000/api'
+  baseApi: 'https://buscareceitas-api-2cugbq4paa-rj.a.run.app/api'
 };
 
 /*
